@@ -1,0 +1,84 @@
+#slader {
+	width: 1250px;
+	height: 200px;
+	border: 5px solid black;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#polosa {
+	width: 4000px;
+	position: relative;
+	left: 0;
+	transition: all ease 1s;
+
+}
+
+#polosa img {
+	float:left;
+}
+
+#polosa::after {
+	content: "";
+	display: block;
+	clear: both;
+	
+}
+
+
+
+@media (max-width: 1100px) and (min-width: 800px){
+	#slader{
+	width: 750px ;
+	margin-left:15% ;	
+		}
+}
+
+@media (max-width: 910px) and (min-width: 800px){
+	#slader{
+	width: 750px ;
+	margin-left:5% ;	
+		}
+}
+@media (max-width: 830px) {
+	#slader{
+	width: 500px ;
+	margin-left:20% ;	
+		}
+}
+
+@media (max-width: 640px) {
+	#slader{
+	width: 500px ;
+	margin-left:10% ;	
+		}
+}
+
+@media (max-width: 570px) {
+	#slader{
+	width: 500px ;
+	margin-left:0% ;	
+		}
+}
+
+
+@media (max-width: 500px) {
+	#slader{
+	width: 250px ;
+	margin-left:14% ;	
+		}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

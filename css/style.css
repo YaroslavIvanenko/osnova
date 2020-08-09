@@ -1,0 +1,147 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Suez+One");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab|Suez+One");
+* {
+  margin: 0;
+  padding: 0; }
+
+body, html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  background-color: #f6f6f6; }
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease; }
+  a:hover {
+    color: #fa713e; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  /*ie8*/
+  -o-transition: all 3s ease-out;
+  -moz-transition: all 3s ease-out;
+  -webkit-transition: all 3s ease-out; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer делает внизу сайта*/
+#wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%; }
+
+#content {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto; }
+
+footer {
+  float: left;
+  background-color: #343434;
+  width: 100%;
+  padding: 1%;
+  border-top: 5px solid #59595a;
+  font-family: "Robota Slab", serif; }
+
+#site_name {
+  margin-right: 5%;
+  color: #f4f4f4;
+  font-size: 1.5em;
+  float: right; }
+
+#site_name > span {
+  font-family: 'Suez One', serif; }
+
+@media (max-width: 1080px) {
+  #clear {
+    clear: both; } }
+
+#footer_menu {
+  font-size: 1.2em; }
+
+#footer_menu > a {
+  margin-left: 2%;
+  color: #f4f4f4; }
+
+#footer_menu > a:hover, #rights > a:hover {
+  border-bottom: 1px solid silver;
+  color: #aeaeae; }
+
+#rights {
+  float: left;
+  margin-left: 5%;
+  font-size: 1.1em;
+  margin-top: 20px; }
+
+#rights > a {
+  color: white; }
+
+#social {
+  float: right;
+  width: 40%;
+  margin-right: 5%;
+  margin-top: 10px; }
+
+#social > a {
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background-color: #d95b48;
+  margin-left: 2%;
+  width: 30px;
+  height: 30px;
+  float: right;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  font-size: 1.2em; }
+  #social > a:hover {
+    background-color: rgba(217, 91, 72, 0.6); }
+
+@media (max-width: 520px) {
+  #site_name {
+    display: none; }
+  #social {
+    width: 100%; } }

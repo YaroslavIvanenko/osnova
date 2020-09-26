@@ -12,17 +12,19 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 	</script>
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link href="jquery.fancybox.css" rel="stylesheet">
+   
     <script src="jquery.fancybox.js"></script>
     <link rel="stylesheet" href="css/bstrap.css" type="text/css">
 	<link rel="stylesheet" href="css/style.css" type="text/css">
-	 <link rel="stylesheet" href="css/page.css" type="text/css">
-	 <link rel="stylesheet" href="css/knopka.css" type="text/css">
-	 <link rel="stylesheet" href="css/slader.css">
-	 <link rel="stylesheet" href="css/header.css" type="text/css">
-	 <link rel="stylesheet" href="css/nav.css" type="text/css">
+	<link rel="stylesheet" href="css/page.css" type="text/css">
+	<link rel="stylesheet" href="css/knopka.css" type="text/css">
+	<link rel="stylesheet" href="css/slader.css">
+	<link rel="stylesheet" href="css/header.css" type="text/css">
+	<link rel="stylesheet" href="css/nav.css" type="text/css">
 	<meta name="description" content="Компания metal-ware занимается изготовлениям и продажей художественой ковки изделий с метала ворота калитки Козырьки  Навесы Ограждения Оконные решотки Лестницы перил Бесетки Кованные манлалы">
     <meta name="keywords" content="Metal-wares,изготовления,ворота калитки,ворота калитки">
 	<meta name="viewport" content="width=device-width, initial-scale=1">

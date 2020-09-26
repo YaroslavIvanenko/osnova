@@ -41,6 +41,17 @@ hr {
   padding: 0; }
 
 
+.article>span {
+	font-family: 'Robota Slab', serif;
+	font-size: 1.2em;
+	width: 80%;
+	margin: 7px 10%;
+	float: left;
+	text-align: center;
+	color:#333;
+}
+
+
 
 
 

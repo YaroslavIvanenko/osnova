@@ -1,8 +1,16 @@
 <footer>
+
+
+   
+
+
 <div id="site_name">
-<span>Metal Wares</span> - художественная ковка!
+	 <img src="img/logo_osnova.png">
 </div>
+
+
 <div id="clear"></div>
+
 <div id="footer_menu">
 <a href="o%20nas.php" title="Узнать детально об рекламе">О нас</a>
 <a href="zdelat zakaz.php" title="Поддержать проект">Контакты</a>

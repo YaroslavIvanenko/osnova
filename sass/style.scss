@@ -20,9 +20,8 @@ a {
   -o-transition: all 0.6s ease;
   -moz-transition: all 0.6s ease;
   -webkit-transition: all 0.6s ease; }
-
-a:hover {
-  color: #fa713e; }
+  a:hover {
+    color: #fa713e; }
 
 img {
   max-width: 100%;
@@ -41,14 +40,37 @@ hr {
   margin: 1em 0;
   padding: 0; }
 
-.article > span {
-  font-family: 'Robota Slab', serif;
-  font-size: 1.2em;
-  width: 80%;
-  margin: 7px 10%;
-  float: left;
-  text-align: center;
-  color: #333; }
+
+.article>span {
+	font-family: 'Robota Slab', serif;
+	font-size: 1.2em;
+	width: 80%;
+	margin: 7px 10%;
+	float: left;
+	text-align: center;
+	color:#333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*footer делает внизу сайта*/
 #wrapper {
@@ -76,7 +98,9 @@ footer {
 
 #site_name {
   margin-right: 5%;
-  float: right; }
+  float: right; 
+}
+
 
 @media (max-width: 1080px) {
   #clear {
@@ -121,9 +145,8 @@ footer {
   text-align: center;
   line-height: 30px;
   font-size: 1.2em; }
-
-#social > a:hover {
-  background-color: rgba(217, 91, 72, 0.6); }
+  #social > a:hover {
+    background-color: rgba(217, 91, 72, 0.6); }
 
 @media (max-width: 520px) {
   #site_name {
